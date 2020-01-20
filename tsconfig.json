@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "outDir": "./docs/",
+        "sourceMap": true,
+        "strict": true,
+        "noImplicitReturns": true,
+        "noImplicitAny": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "target": "esnext",
+        "allowJs": true,
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./",
+        "paths": {
+            "*": ["types/*"]
+        }
+    },
+    "include": [
+        "./src/**/*", "__test__/SideBar.test.tsx", "test/fetch.test.ts"
+    ],
+    "exclude": ["node_modules/*", "__test__/*"]
+}
